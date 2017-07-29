@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Doctor Service</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/ConferenceService.js"></script>
+    </head>
+    <body>
+        <h1> AUTHOR TABLE</h1>
+        <table>
+            <tr>
+                <td>Enter Author_id : </td>
+                <td><input type="text" id="authroId" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Enter Author_Fname : </td>
+                <td><input type="text" id="authorFname" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Author_Lname : </td>
+                <td> <input type="text" id="authorLname" size="20"/> </td>
+            </tr>
+            <tr>
+                <td>Author_Affiliation : </td>
+                <td> <input type="text" id="authorAffiliation" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Author_Country : </td>
+                <td> <input type="text" id="authorCountry" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Author_Email : </td>
+                <td> <input type="text" id="authorEmail" size="20"/></td>
+            </tr>
+            <tr>
+                <td>Author_Number </td>
+                <td> <input type="text" id="authorNumber" size="20"/></td>
+            </tr>
+        </table>
+        <input type="button" value="Get All Author" onclick="getAllAuthor()"/>
+        <input type="button" value="Get Author" onclick="getAuthor()"/>
+        <input type="button" value="Add Author" onclick="addAuthor()"/>
+        <input type="button" value="Update Author" onclick="updateAuthor()"/>
+        <input type="button" value="Delete Author" onclick="deleteAuthor()"/>
+        <p id="output"></p>
+    </body>
+</html>
